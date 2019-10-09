@@ -1,0 +1,3 @@
+college.examplebundle.action:
+    resource: ../../Action
+    type: annotation

@@ -1,0 +1,13 @@
+<script>
+  (function($){
+    $('.layout_latest[data-content-url] p.more a').click(function(event){
+      event.preventDefault();
+      var $link = $(this);
+      var $news = $link.closest('.layout_latest');
+      var $p = $link.closest('p.more');
+      $.get($news.data('content-url'), function(response){
+        $p.replaceWith(response);
+      });
+    });
+  })(jQuery);
+</script>

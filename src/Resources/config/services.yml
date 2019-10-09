@@ -1,0 +1,13 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: false
+
+    College\ExampleBundle\:
+        resource: ../../
+        exclude: ../../{Resources,DependencyInjection}
+
+    College\ExampleBundle\Action\:
+        resource: ../../Action
+        public: true

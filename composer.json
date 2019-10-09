@@ -1,0 +1,18 @@
+{
+    "name": "fritzmg/contao-example-bundle",
+    "description": "Contao Example Bundle",
+    "type": "contao-bundle",
+    "license": "LGPL-3.0-or-later",
+    "require": {
+        "php": ">=7.1",
+        "contao/core-bundle": "^4.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "College\\ExampleBundle\\": "src/"
+        }
+    },
+    "extra": {
+        "contao-manager-plugin": "College\\ExampleBundle\\ContaoManager\\Plugin"
+    }
+}
