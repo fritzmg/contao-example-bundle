@@ -1,6 +1,6 @@
 {
     "name": "fritzmg/contao-example-bundle",
-    "description": "Contao Example Bundle",
+    "description": "Contao Example Bundle, Lorem ipsum",
     "type": "contao-bundle",
     "license": "LGPL-3.0-or-later",
     "require": {
